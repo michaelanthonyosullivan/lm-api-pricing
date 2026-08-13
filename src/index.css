@@ -515,6 +515,21 @@ tbody tr:last-child td {
   text-decoration: underline;
 }
 
+.foot p {
+  margin: 0 0 10px;
+}
+
+.foot p:last-child {
+  margin-bottom: 0;
+}
+
+.copyright {
+  font-size: 0.7rem;
+  font-style: italic;
+  color: var(--dim);
+  opacity: 0.85;
+}
+
 /* ---------- Responsive ---------- */
 
 @media (max-width: 900px) {

@@ -336,13 +336,16 @@ export default function App() {
         )}
 
         <footer className="foot">
-          Prices sourced live from{' '}
-          <a href="https://openrouter.ai" target="_blank" rel="noreferrer">
-            OpenRouter's public model catalog
-          </a>{' '}
-          at page load — the most complete, always-current view of per-token
-          rates across all major LM providers. No API key needed. Rates are
-          list prices in USD and may vary by usage tier or region.
+          <p>
+            Prices sourced live from{' '}
+            <a href="https://openrouter.ai" target="_blank" rel="noreferrer">
+              OpenRouter's public model catalog
+            </a>{' '}
+            at page load — the most complete, always-current view of per-token
+            rates across all major LM providers. No API key needed. Rates are
+            list prices in USD and may vary by usage tier or region.
+          </p>
+          <p className="copyright">© MMXXVI Michael O'Sullivan</p>
         </footer>
       </main>
     </div>
