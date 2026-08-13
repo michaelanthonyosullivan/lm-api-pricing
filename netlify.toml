@@ -1,0 +1,9 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+# Ensure every page load revalidates — prices must be fresh each visit.
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Cache-Control = "no-cache"
